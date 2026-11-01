@@ -1,1 +1,2 @@
-# Documentación del Núcleo de Computación Cuántica (QC-Core)
+# Documentaciï¿½n del Nï¿½cleo de Computaciï¿½n Cuï¿½ntica (QC-Core)
+
