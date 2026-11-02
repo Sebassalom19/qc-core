@@ -1,6 +1,6 @@
-# QC-core Software-Intensive Quantum Computing Core
+# QC-core: Software-Intensive Quantum Computing Core
 
-### Propósito del repositorio qc 
+### Propósito del repositorio QC-core 
 
 La finalidad de este proyecto/repositorio es utilizar el paradigma de Sistemas Intensivos en Software en computación cuántica.
 
@@ -8,6 +8,13 @@ QC-Core busca mantener un orden al momento de hacer proyectos de computación cu
 
 ### Pilares arquitectónicos
 
+**Arquitectura hexagonal**
 
+**Pipes and filters**
 
-### Estructura del directorio
+**Resiliencia y tolerancia a fallos**
+
+**Observabilidad y telemetría**
+
+### Estructura del repositorio
+
