@@ -32,6 +32,34 @@ La observabilidad en un producto software es la capacidad de inferir, por medio 
 
 ## Estructura del repositorio
 
+### .vscode 
+
+Carpeta que alberga las configuraciones locales, automatizando la calidad del código ejecutando linter ruff, un analizador de código de python.
+
+### docs/
+
+Carpeta que contiene la documentación formal del proyecto, siguiendo los lineamientos estándar del docs-as-code y ADRs (Architecture Decision Records), para tratar con extrema rigurosidad y mantener documentada la evolución del repositorio.
+
+### labs/
+
+Carpeta que contiene el espacio experimental y pedagógico, con fines de investigación y aprendizaje afines al propósito del repositorio.
+
+### src/cq
+
+Carpeta principal del repositorio. En esta carpeta se implementa la Arquitectura Hexagonal y el patrón Pipes & Filters. 
+
+1) .../core: Algoritmos cuánticos puros y formulación matemática de problemas. Carácter agnóstico ante cualquier hardware.
+2) .../ports: Interfaces abstractas y contratos.
+3) .../adapters: Aplicaciones específicas de las interfaces abstractas y contratos, estableciendo conexión real con la tecnología
+4) .../pipeline: Flujo de datos secuencial. Carácter resiliente y reutilizable ante aplicaciones específicas por medio de circuitos 
+
+### tests/
+
+Carpeta destinada a ser el espacio de pruebas automatizadas usando pytest, buscando garantizar calidad y corrección del software en cada iteración.
+
+1) .../unit: usado para las pruebas unitarias deterministas sin necesidad de simulaciones cuánticas pesadas. 
+2) .../statistical: usado para las pruebas estadísticas y de hipótesis. Se busca validar los comportamientos probabilisticos de los algoritmos de computación cuántica. 
+
 ## Referencias
 
 [1] A. Cockburn, "Hexagonal Architecture (Ports and Adapters)," 2005. [Online]. Available: https://alistair.cockburn.us/hexagonal-architecture/
