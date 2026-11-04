@@ -28,6 +28,8 @@ Es la capacidad que tiene un sistema o producto software para mantener su funcio
 
 ### 4. Observabilidad y telemetría
 
+La observabilidad en un producto software es la capacidad de inferir, por medio de las salidas/resultados externos, el funcionamiento interno de un sistema. Junto con la telematría, que es el proceso de recolección y transmisión de datos desde fuentes remotas a una central para análisis y monitoreo[8], buscan garantizar trazabilidad en las distintas aplicaciones o pruebas que sucedan en el entorno del repositorio, para así lograr un claro rastreo y documentación a lo largo de su ciclo de vida.
+
 ## Estructura del repositorio
 
 ## Referencias
@@ -39,3 +41,4 @@ Es la capacidad que tiene un sistema o producto software para mantener su funcio
 [5] Microsoft Corporation, "Patrón Pipes and Filters," Microsoft Learn: Centro de Arquitectura de Azure, 2023. [En línea]. Disponible en: https://learn.microsoft.com/es-es/azure/architecture/patterns/pipes-and-filters. [Accedido: Nov. 02, 2026].
 [6] A. Gómez y E. Moguel, "Ingeniería de software cuántico: ciclo de vida para el desarrollo de software cuántico," Tecnalia Blog, 2023. [En línea]. Disponible en: https://www.tecnalia.com/blog/ingenieria-software-cuantico-ciclo-vida. [Accedido: Nov. 02, 2026].
 [7] IBM Corporation, "¿Qué es la resiliencia de las aplicaciones?," IBM Think Topics, 2024. [En línea]. Disponible en: https://www.ibm.com/think/topics/application-resiliency. [Accedido: Nov. 02, 2026].
+[8] N. Sharma, "Observability vs. Telemetry vs. Monitoring: Differences and Synergies," Last9 Blog, Sep. 04, 2023. [En línea]. Disponible en: https://last9.io/blog/observability-vs-telemetry-vs-monitoring/. [Accedido: Nov. 03, 2026].
