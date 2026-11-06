@@ -60,6 +60,17 @@ Carpeta destinada a ser el espacio de pruebas automatizadas usando pytest, busca
 1) .../unit: usado para las pruebas unitarias deterministas sin necesidad de simulaciones cuánticas pesadas. 
 2) .../statistical: usado para las pruebas estadísticas y de hipótesis. Se busca validar los comportamientos probabilisticos de los algoritmos de computación cuántica. 
 
+### Archivos de configuración en la raíz
+
+1) .gitignore: Mantiene el repositorio limpio de archivos temporales
+2) .python-version: Informa la versión de python para mantener el entorno de carácter determinista
+3) README.md: Portada, manteniendo documentación general
+4) pyproject.toml: Explicación de dependencias, herramientas y empaquetado. Setup principal del repositorio
+
+## Arquitectura hexagonal del sistema
+
+
+
 ## Referencias
 
 [1] A. Cockburn, "Hexagonal Architecture (Ports and Adapters)," 2005. [Online]. Available: https://alistair.cockburn.us/hexagonal-architecture/
